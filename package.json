@@ -1,0 +1,43 @@
+{
+  "name": "@zeplin/cli-connect-plugin-template",
+  "version": "0.0.1",
+  "description": "Zeplin CLI Connected Components Plugin Template",
+  "main": "./dist/index",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint --ext .js,.ts .",
+    "prepare": "npm run build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "{repo-url}"
+  },
+  "bugs": {
+    "url": "{bugs-url}"
+  },
+  "homepage": "{homepage-url}",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "@zeplin/cli": "^0.1.1",
+    "@zeplin/eslint-config": "^2.2.0",
+    "eslint": "^6.4.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "ts-jest": "^23.10.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+  }
+}
