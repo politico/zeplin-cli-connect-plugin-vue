@@ -1,12 +1,12 @@
 import Plugin from "../src";
 
-describe("Connected Components React Plugin - Flow", () => {
-    test("FlowComponent.jsx snippet creation", async () => {
+describe("Connected Components Vue Plugin", () => {
+    test("MyButton.vue snippet creation", async () => {
         const processor = new Plugin();
 
         const componentCode = await processor.process(
             {
-                path: "test/samples/flow/FlowComponent.jsx",
+                path: "test/samples/MyButton.vue",
                 zeplinNames: []
             }
         );
@@ -14,38 +14,12 @@ describe("Connected Components React Plugin - Flow", () => {
         expect(componentCode).toMatchSnapshot();
     });
 
-    test("FlowComponentWithProps.jsx snippet creation", async () => {
+    test("MyIcon.vue snippet creation", async () => {
         const processor = new Plugin();
 
         const componentCode = await processor.process(
             {
-                path: "test/samples/flow/FlowComponentWithProps.jsx",
-                zeplinNames: []
-            }
-        );
-
-        expect(componentCode).toMatchSnapshot();
-    });
-
-    test("FlowComponentWithChildren.jsx snippet creation", async () => {
-        const processor = new Plugin();
-
-        const componentCode = await processor.process(
-            {
-                path: "test/samples/flow/FlowComponentWithChildren.jsx",
-                zeplinNames: []
-            }
-        );
-
-        expect(componentCode).toMatchSnapshot();
-    });
-
-    test("FlowComponentWithChildrenAndProps.jsx snippet creation", async () => {
-        const processor = new Plugin();
-
-        const componentCode = await processor.process(
-            {
-                path: "test/samples/flow/FlowComponentWithChildrenAndProps.jsx",
+                path: "test/samples/MyIcon.vue",
                 zeplinNames: []
             }
         );
