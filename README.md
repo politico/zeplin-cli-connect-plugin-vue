@@ -1,5 +1,7 @@
 # Zeplin CLI Connected Components - Vue Plugin
 
+[![npm version](https://badge.fury.io/js/zeplin-cli-connect-plugin-vue.svg)](https://badge.fury.io/js/zeplin-cli-connect-plugin-vue)
+
 ![Example Zeplin snippet created by the plugin](docs/example_snippet.png)
 
 Zeplin CLI plugin, to send Vue component snippets to Zeplin
