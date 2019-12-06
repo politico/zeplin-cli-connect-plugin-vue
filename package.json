@@ -39,5 +39,6 @@
     "typescript": "^3.6.2"
   },
   "dependencies": {
+    "vue-docgen-api": "^4.1.1"
   }
 }
