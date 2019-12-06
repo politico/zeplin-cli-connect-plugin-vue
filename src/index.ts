@@ -16,9 +16,10 @@ export default class implements ConnectPlugin {
         * @TODO Determine if we can switch to `PrismLang.HTML`
         * Vue templates have no perfect analog in Prism-supported languages,
         * though they're more similar to HTML than JSX. 
-        * However, Zeplin currently does not seem to provide syntax 
+        * For now, `PrismLang.Markup` is a great solution;
+        * see https://github.com/zeplin/connected-components-beta-issues/issues/4#issuecomment-562738427
         */
-       const lang = PrismLang.ReactJSX
+       const lang = PrismLang.Markup
        
        const componentInfo = await parse(context.path)
        
