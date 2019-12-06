@@ -8,6 +8,7 @@
     "url": "http://jackkoppa.com/"
   },
   "main": "./dist/index",
+  "files": ["dist"],
   "scripts": {
     "test": "jest",
     "build": "tsc",
