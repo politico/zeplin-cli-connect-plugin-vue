@@ -1,6 +1,6 @@
 {
   "name": "zeplin-cli-connect-plugin-vue",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "Vue Zeplin CLI Connected Components Plugin",
   "author": {
     "name": "Jack Koppa",
@@ -8,7 +8,9 @@
     "url": "http://jackkoppa.com/"
   },
   "main": "./dist/index",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "build": "tsc",
