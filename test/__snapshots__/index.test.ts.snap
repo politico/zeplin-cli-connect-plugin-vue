@@ -3,9 +3,8 @@
 exports[`Connected Components Vue Plugin MyButton.vue snippet creation 1`] = `
 Object {
   "description": "General component description",
-  "lang": "html",
-  "snippet": "
-<MyButton
+  "lang": "jsx",
+  "snippet": "<MyButton
   color=\\"string\\"
   disabled=\\"boolean\\"
   href=\\"string\\"
@@ -15,23 +14,20 @@ Object {
   label=\\"string\\"
   size=\\"string\\"
   to=\\"string|object\\"
-/>
-        ",
+/>",
 }
 `;
 
 exports[`Connected Components Vue Plugin MyIcon.vue snippet creation 1`] = `
 Object {
   "description": "General component description",
-  "lang": "html",
-  "snippet": "
-<MyIcon
+  "lang": "jsx",
+  "snippet": "<MyIcon
   name=\\"string\\"
   width=\\"number\\"
   height=\\"number\\"
   title=\\"string\\"
   solid=\\"boolean\\"
-/>
-        ",
+/>",
 }
 `;
