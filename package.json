@@ -1,7 +1,7 @@
 {
-  "name": "@zeplin/cli-connect-plugin-template",
+  "name": "@zeplin/cli-connect-plugin-vue",
   "version": "0.0.1",
-  "description": "Zeplin CLI Connected Components Plugin Template",
+  "description": "Vue Zeplin CLI Connected Components Plugin",
   "main": "./dist/index",
   "scripts": {
     "test": "jest",
@@ -17,12 +17,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "{repo-url}"
+    "url": "https://github.com/jackkoppa/zeplin-cli-connect-plugin-vue"
   },
   "bugs": {
-    "url": "{bugs-url}"
+    "url": "https://github.com/jackkoppa/zeplin-cli-connect-plugin-vue/issues"
   },
-  "homepage": "{homepage-url}",
+  "homepage": "https://github.com/jackkoppa/zeplin-cli-connect-plugin-vue",
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.5",
