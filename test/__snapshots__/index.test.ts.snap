@@ -3,25 +3,28 @@
 exports[`Connected Components Vue Plugin MyButton.vue snippet creation 1`] = `
 Object {
   "description": "General component description",
-  "lang": "jsx",
+  "lang": "html",
   "snippet": "<MyButton
   color=\\"string\\"
   disabled=\\"boolean\\"
   href=\\"string\\"
   icon=\\"string\\"
-  iconPlacement=\\"string\\"
-  iconProps=\\"object\\"
+  icon-placement=\\"string\\"
+  icon-props=\\"object\\"
   label=\\"string\\"
   size=\\"string\\"
   to=\\"string|object\\"
-/>",
+  @click=\\"handleClick\\"
+>
+  <!-- content -->
+</MyButton>",
 }
 `;
 
 exports[`Connected Components Vue Plugin MyIcon.vue snippet creation 1`] = `
 Object {
   "description": "General component description",
-  "lang": "jsx",
+  "lang": "html",
   "snippet": "<MyIcon
   name=\\"string\\"
   width=\\"number\\"
@@ -29,5 +32,19 @@ Object {
   title=\\"string\\"
   solid=\\"boolean\\"
 />",
+}
+`;
+
+exports[`Connected Components Vue Plugin MyLightweightComponent.vue snippet creation 1`] = `
+Object {
+  "description": "",
+  "lang": "html",
+  "snippet": "<MyLightweightComponent
+  simple-prop=\\"string\\"
+  @simple-event=\\"handleSimpleEvent\\"
+>
+  <!-- content -->
+  <template #simpleSlot=\\"slotBinding\\"></template>
+</MyLightweightComponent>",
 }
 `;

@@ -36,7 +36,7 @@
     "@types/node": "^12.7.5",
     "@typescript-eslint/eslint-plugin": "^2.3.0",
     "@typescript-eslint/parser": "^2.3.0",
-    "@zeplin/cli": "^0.1.1",
+    "@zeplin/cli": "^0.3.1",
     "@zeplin/eslint-config": "^2.2.0",
     "eslint": "^6.4.0",
     "eslint-import-resolver-typescript": "^2.0.0",
@@ -48,6 +48,8 @@
     "vue": "^2.6.10"
   },
   "dependencies": {
+    "param-case": "^3.0.3",
+    "pascal-case": "^3.1.1",
     "vue-docgen-api": "^4.1.1"
   }
 }
