@@ -6,3 +6,6 @@ dist/
 
 # Editor
 .vscode/
+
+# For local testing w/ `npm pack`
+*.tgz
