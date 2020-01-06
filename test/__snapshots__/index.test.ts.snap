@@ -44,7 +44,7 @@ Object {
   @simple-event=\\"handleSimpleEvent\\"
 >
   <!-- content -->
-  <template v-slot:simpleSlot=\\"slotBinding\\"></template>
+  <template #simpleSlot=\\"slotBinding\\"></template>
 </MyLightweightComponent>",
 }
 `;

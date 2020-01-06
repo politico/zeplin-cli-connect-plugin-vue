@@ -44,10 +44,10 @@ export default class implements ConnectPlugin {
         if (slot.scoped) {
           let slotBinding = 'scopedBinding'
           if (slot.bindings && slot.bindings[0] && slot.bindings[0].name) slotBinding = slot.bindings[0].name
-          return `<template v-slot:${slot.name}="${slotBinding}"></template>`
+          return `<template #${slot.name}="${slotBinding}"></template>`
         }
 
-        return `<template v-slot:${slot.name}></template>`
+        return `<template #${slot.name}></template>`
       }) || []
     }
 
