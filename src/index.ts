@@ -53,7 +53,6 @@ export default class implements ConnectPlugin {
 
     getEventLines(componentInfo: ComponentDoc): string[] {
       return componentInfo.events && componentInfo.events.map(event => {
-        console.log(JSON.stringify(event))
         return `@${event.name}="handle${pascalCase(event.name)}"`
       }) || []
     }
