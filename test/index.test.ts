@@ -26,4 +26,17 @@ describe("Connected Components Vue Plugin", () => {
 
         expect(componentCode).toMatchSnapshot();
     });
+
+    test("MyLightweightComponent.vue snippet creation", async () => {
+        const processor = new Plugin();
+
+        const componentCode = await processor.process(
+            {
+                path: "test/samples/MyLightweightComponent.vue",
+                zeplinNames: []
+            }
+        );
+
+        expect(componentCode).toMatchSnapshot();
+    });
 });
